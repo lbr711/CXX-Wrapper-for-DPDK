@@ -24,10 +24,13 @@ sudo ldconfig
 ```
 
 ## Usage
-In the PcapPlusPlus directory, use the Python script called setup-dpdk.py to bind NICs to UIO drivers like igb_uio, etc. The first param can be setup, status, and restore. The three kinds of the value are for binding NICs, checking the status of NICs, and unbinding NICs, respectively.
+In the PcapPlusPlus directory, use the Python script called setup-dpdk.py to bind NICs to DPDK UIO drivers like igb_uio, etc. The first param can be setup, status, and restore. The three kinds of the value are for binding NICs, checking the status of NICs, and unbinding NICs, respectively.
 
 ``` shell
 sudo python3 setup-dpdk.py setup -g 512 -i ens33 
 sudo python3 setup-dpdk.py status
 sudo python3 setup-dpdk.py restore
 ```
+
+## DPDK supported NICs
+Not all kinds of NICs can support DPDK, here is the [list](http://core.dpdk.org/supported/nics/) that illustrates which kinds of NICs support DPDK.
