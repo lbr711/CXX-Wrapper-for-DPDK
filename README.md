@@ -8,7 +8,7 @@ For example, download the dpdk-19.11.14.tar.xz.
 Here, use "make" to compile instead of "meson & ninja", avoiding the error that libs cannot be found. 
 ``` shell
 tar xvf dpdk-19.11.14.tar.xz & cd dpdk-stable-19.11.14
-make config -T=x86_64-native-linuxapp-gcc
+make config T=x86_64-native-linuxapp-gcc
 make
 sudo make install
 sudo ldconfig
