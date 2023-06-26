@@ -13,7 +13,7 @@ make
 sudo make install
 sudo ldconfig
 ```
-Second, git this repo and install PcapPlusPlus with DPDK.
+Second, git this repo and install PcapPlusPlus with DPDK. Click [PcapPlusPlus](https://pcapplusplus.github.io/docs/quickstart). Switch to tag v22.11, then click the green button for downloading the code. Copy the git. 
 ``` shell
 git clone https://github.com/seladb/PcapPlusPlus.git
 cd PcapPlusPlus
