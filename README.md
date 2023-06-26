@@ -17,7 +17,7 @@ Second, git clone this [repo](https://github.com/seladb/PcapPlusPlus) and instal
 ``` shell
 git clone https://github.com/seladb/PcapPlusPlus.git
 cd PcapPlusPlus
-./configure-linux.sh --dpdk --dpdk-home "Here is the absolute path to your dpdk-stable-19.11.14"
+./configure-linux.sh --dpdk --dpdk-home "Here is the absolute path to your dpdk-stable-19.11.14 directory"
 make
 sudo make install
 sudo ldconfig
