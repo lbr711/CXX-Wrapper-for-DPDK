@@ -22,9 +22,3 @@ make
 sudo make install
 sudo ldconfig
 ```
-
-## License
-
-PcapPlusPlus is released under the [Unlicense license](https://unlicense.org/).
-
-[![GitHub](https://img.shields.io/github/license/seladb/PcapPlusPlus?style=flat&color=blue&logo=unlicense)](https://unlicense.org/)
