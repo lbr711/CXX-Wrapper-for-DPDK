@@ -1,6 +1,6 @@
-# CXX-Wrappers-for-DPDK
+# CXX-Wrapper-for-DPDK
 ## PcapPlusPlus
-[PcapPlusPlus](https://pcapplusplus.github.io/docs/quickstart) provides C++ wrappers for DPDK which is a library developed by C. Owing to PcapPlusPlus, We can use C++ for the development of DPDK applications. 
+[PcapPlusPlus](https://pcapplusplus.github.io/docs/quickstart) is the C++ wrapper for DPDK. Since using PcapPlusPlus, We can use C++ for developing DPDK applications. 
 
 ## Installation
 First, download and install [DPDK (version <= 21.11)](http://core.dpdk.org/download/).
