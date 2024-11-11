@@ -5,7 +5,7 @@
 ## Installation
 First, download and install [DPDK (version <= 21.11)](http://core.dpdk.org/download/).
 For example, download the dpdk-19.11.14.tar.xz.
-Here, use "make" to compile instead of "meson & ninja", avoiding the error that libs cannot be found. 
+Here, use "make" to compile instead of "meson & ninja", avoiding the error that libs cannot be found. After the command "sudo make install", complied dynamic libraries are copied to the directory "usr/local/lib", and complied header files are copied to the directory "usr/local/include/dpdk". 
 ``` shell
 tar xvf dpdk-19.11.14.tar.xz & cd dpdk-stable-19.11.14
 make config T=x86_64-native-linuxapp-gcc
