@@ -13,6 +13,8 @@ make
 sudo make install
 sudo ldconfig
 ```
+Note that: when building some old versions of DPDK, there will appear "fallthrough" warnings, which is treated as errors after gcc 7.0. Thus we should modify the makefiles in both directory "yourPath2dpdk/kernel/linux/kni/Makefile" and the directory "yourPath2dpdk/kernel/linux/igb_uio/Makefile". Concretely, we should add '-w' in 'CFLAGS'.
+
 Second, git clone this [repo](https://github.com/seladb/PcapPlusPlus) and install PcapPlusPlus with DPDK. Switch to the tag v22.11, then click the green button for downloading the code. Copy the HTTPS URL to git clone as below: 
 ``` shell
 git clone https://github.com/seladb/PcapPlusPlus.git
